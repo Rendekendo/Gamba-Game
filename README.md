@@ -1,6 +1,6 @@
 # Gamba Game
 
-A simple web-based game built with React where you can earn money or gamble, deposit to a bank or withdraw 
+A simple web-based game built with React where you can earn money or gamble, (deposit to a bank or withdraw tba.)
 ![image](https://github.com/user-attachments/assets/817a7358-2280-4546-9ac9-cbe4b6962333)
 
 # How to run
