@@ -1,0 +1,33 @@
+:root {
+  --background: #202020;
+  --background2: #111120;
+  --text-color: whitesmoke;
+  --button-background: #403040;
+}
+body {
+  background-color: #202020;
+  color: var(--text-color);
+}
+.earnButton, .gambaButton {
+  width: 400px;
+  height: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--button-background);
+  color: var(--text-color);
+  box-shadow: 4px 4px 4px black;
+}
+#gambaDiv{
+  text-align: center;
+  box-shadow: 4px 4px 4px black;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--background2);
+}
+#appDiv {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
