@@ -36,10 +36,12 @@ function Gamba(){
 
     return(
         <div id="gambaDiv">
+            <div id="gambaHeader">
             <h1>Gamba</h1>
-            <button className="earnButton" onClick={() => setMoney(m => m +0.1)}>Click Here</button>
-            <p>€{money.toFixed(1)}</p>
-            <button className="gambaButton" onClick={gamble}>Roll Dice</button>
+            <p>Money: €{money.toFixed(1)}</p>
+            </div>
+            <button className="earnButton" onClick={() => setMoney(m => m +0.1)}>EARN MONEY</button>
+            <button className="gambaButton" onClick={gamble}>ROLL DICE</button>
             <p><span id="loseStatus">0 - 4 Lose</span>,<span id="winStatus"> 4 - 8 Win</span>,<span id="win2Status"> 8 - 10 Win Big</span></p>
             <p>Last Rolled Number: {Math.round(gamba)}</p>
             <p>{gambaDisplay}</p>

@@ -7,6 +7,7 @@
 body {
   background-color: #202020;
   color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .earnButton, .gambaButton {
   width: 400px;
@@ -16,14 +17,27 @@ body {
   background-color: var(--button-background);
   color: var(--text-color);
   box-shadow: 4px 4px 4px black;
+  font-size: 20px;
 }
 #gambaDiv{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   box-shadow: 4px 4px 4px black;
   width: fit-content;
   padding: 20px;
   border-radius: 20px;
   background-color: var(--background2);
+}
+#gambaDiv *{
+  margin: 5px;
+  padding: 0;
+}
+#gambaHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #appDiv {
   margin: auto;
