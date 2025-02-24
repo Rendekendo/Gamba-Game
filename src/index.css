@@ -119,4 +119,24 @@ body {
   min-width: 150px;
   margin-left: auto; 
 }
-
+#loginContainer {
+  position: absolute;
+  top: 50%;
+  background: var(--background);
+  padding: 20px;
+  box-shadow: 4px 4px 4px black;
+  border-radius: 12px;
+}
+#loginHeader {
+  display: flex;
+  justify-content: space-between;
+}
+#closeLoginButton {
+  border: 0;
+  background-color: var(--button-background);
+  color: white;
+  padding: 4px;
+  height: fit-content;
+  font-weight: 800;
+  border-radius: 4px;
+}

@@ -4,7 +4,7 @@ function Gamba({ getBalance, getIncome }) {
     const [money, setMoney] = useState(0);
     const [gamba, setGamba] = useState(0);
     const [gambaDisplay, setGambaDisplay] = useState("Spin to Win");
-    const [bet, setBet] = useState(0.5); // Default minimum bet
+    const [bet, setBet] = useState(0.5); 
     const [income, setIncome] = useState(0);
 
     function gamble() {
