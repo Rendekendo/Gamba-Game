@@ -11,9 +11,3 @@ A simple web-based game built with React where you can earn money, gamble, (depo
 - `npm install`
 - `npm run dev`
 
-# Create React Dev Server
-`npm create vite@latest`
-create simple dev server
-
-`npm install`
-`npm run dev`
